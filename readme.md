@@ -1,0 +1,1 @@
+# Cart session manager for Laravel
