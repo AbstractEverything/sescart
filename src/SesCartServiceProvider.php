@@ -8,7 +8,10 @@ class SesCartServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        // ...
+        $this->app->bind('sescart', function($app)
+        {
+            return new AbstractEverything\SesCart\Cart\CartManager($app['session']);
+        });
     }
 
     public function boot()
