@@ -10,7 +10,7 @@ class SesCartServiceProvider extends ServiceProvider
     {
         $this->app->bind('sescart', function($app)
         {
-            return new AbstractEverything\SesCart\Cart\CartManager($app['session']);
+            return new \AbstractEverything\SesCart\Cart\CartManager($app['session']);
         });
     }
 
