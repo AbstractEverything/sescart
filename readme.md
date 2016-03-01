@@ -16,7 +16,7 @@ Run `composer require abstracteverything/sescart` or add:
 
 to your composer.json file and run `composer update`.
 
-Add `AbstractEverything\SesCart\ServiceProvider` to your providers array.
+Add `AbstractEverything\SesCart\SesCartServiceProvider` to your providers array.
 
 Add `AbstractEverything\SesCart\Facades\SesCart` to your facades array.
 
